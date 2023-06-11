@@ -11,6 +11,7 @@ Some of the best practice that can be used here are:-
 - For secrets passed in helm chart, we can make use of vault and fetch the secrets from vault while deploying application through Jenkins.
 - We can write Jenkinsfile to deploy the application through Jenkins.
 - For Terraform, we can make use of AWS Secret manager to store secrets and export variables using TF_VARS.
+- We can setup HPA for application level autoscaling based on resource usage.
 
 ## STEPS ##
 
